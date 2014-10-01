@@ -1,0 +1,3 @@
+#!/usr/bin/env ruby
+require File.expand_path("../../lib/dnd_name_generator", __FILE__)
+puts DndNameGenerator.generate(ARGV[0])
